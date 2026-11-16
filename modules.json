@@ -1,0 +1,2955 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "k8db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "k8mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "k8hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        },
+        "title": {
+          "tr": "Hayalinizdeki yeri birlikte bulalım",
+          "en": "Let's find your dream home together",
+          "ar": "لنجد معًا المكان الذي تحلم به"
+        },
+        "description": {
+          "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
+          "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+        },
+        "btn1Text": {
+          "tr": "İlanları gör",
+          "en": "Browse listings",
+          "ar": "تصفح الإعلانات"
+        },
+        "btn1Url": "ilanlar",
+        "btn2Text": {
+          "tr": "Değerleme",
+          "en": "Valuation",
+          "ar": "التقييم"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "k8st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Ekip 1",
+      "path": "team-1",
+      "local": "body",
+      "category": "team",
+      "id": "k8tm01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Ekip",
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "title": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "description": {
+          "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
+          "en": "Our experienced team is here to add value to your projects.",
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "data": [
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Kurucu / CEO",
+            "en": "Founder / CEO",
+            "ar": "المؤسس / الرئيس التنفيذي"
+          },
+          "bio": {
+            "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
+            "en": "Strategy and management with 10+ years of industry experience.",
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Tasarım Direktörü",
+            "en": "Design Director",
+            "ar": "مدير التصميم"
+          },
+          "bio": {
+            "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
+            "en": "Brand identity and user experience design.",
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Yazılım Geliştirici",
+            "en": "Software Developer",
+            "ar": "مطوّر برمجيات"
+          },
+          "bio": {
+            "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
+            "en": "Scalable solutions with modern web technologies.",
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+          },
+          "img": ""
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "k8ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 6
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "k8ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 7
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "k8mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px 0px 0px 0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 8
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "k8in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 9
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#kuyumcu-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "0krasc",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Üst Damga — çizgiye basılmış yuvarlak mühür logo",
+      "description": "Logo vurgu renkli, kesik çizgi halkalı yuvarlak bir mühürde; mühür çubuğun kalın alt çizgisine basılmış gibi taşar, üzerine gelince halka döner. Menü öğeleri çubuk boyunca uzanır, etkin sayfanın çizgisi kalın şerit; sonda telefon, dil ve düğme. Dar ekranda mühür küçülür, açılır liste. Marka bir mühür/etiket gibi başlığa basılmış: üretici, yöresel ürün, el yapımı güveni; logo bloğu ya da rozetten farklı olarak çizgiyi aşan yuvarlak damga. Sayfalar site sayfalarından, dil seçici {{langbar}}, logo {{logo}}. Mobil menü erişilebilir (aria-expanded, Esc, odak). Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "verified",
+      "category": "menu",
+      "subCategory": "seal-logo",
+      "tags": [
+        "menu",
+        "seal",
+        "stamp",
+        "badge-logo",
+        "heritage",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "0px",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "cta_ad": {
+          "tr": "Ekspertiz",
+          "en": "Appraisal",
+          "ar": "التقييم"
+        },
+        "cta_url": "teklif-al",
+        "tel": "",
+        "logoimg": "icon.svg",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "44px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "cta": {
+          "tr": "Ekspertiz",
+          "en": "Appraisal",
+          "ar": "التقييم"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "name": "ek bağlantı adı (dil sözlüğü)",
+          "url": "iç yol ya da dış adres (dış adres yeni sekmede)"
+        }
+      },
+      "id": "tbbap4",
+      "path": "ust-damga",
+      "local": "header",
+      "index": 12
+    },
+    {
+      "name": "Açılış Dipnot Manşet — dev editoryal başlık, dipnot numaraları, asimetrik dar sütun",
+      "description": "Üstte çift çizgili künye satırı (üst etiket + rozet damgası); 12 kolonluk asimetrik ızgarada 8 kolonluk dev başlık, yanında başlığa üst simge gibi asılı yuvarlak dipnot numaraları, başlığın tabanına yaslanan 3 kolonluk dar yan sütunda metin ve alt alta düğmeler. Altta görsel «Şekil» (alt metni italik altyazı) ve numaralı madde notları; numaraya tıklayınca not vurgulanır ve odaklanır, üzerine gelince numara ile not karşılıklı ışır. acilis-gazete tek sütun gazete sayfasıdır (manşet kuralı, ilk harf büyük); acilis-dev-tipografi başlığı tüm genişliğe yayar. Bu modül 12 kolonluk asimetrik ızgarada 8 kolonluk başlığa dipnot numaraları bağlar, numaralar sayfa altındaki numaralı notlara gider (vurgu + odak), metin 3 kolonluk dar sütunda başlık tabanına yaslanır. Başlık h1, ilk görsel eager. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "format_quote",
+      "category": "hero",
+      "subCategory": "editorial-footnotes",
+      "tags": [
+        "hero",
+        "editorial",
+        "footnotes",
+        "asymmetric",
+        "typography",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1320px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Atölye defteri · Sayı 07",
+          "en": "Atelier journal · Issue 07",
+          "ar": "دفتر الأتيليه · العدد 07"
+        },
+        "baslik": {
+          "tr": "Altın tartılır, sonra konuşulur",
+          "en": "Gold is weighed first, then discussed",
+          "ar": "الذهب يُوزن أولًا ثم نتحدث"
+        },
+        "metin": {
+          "tr": "Bakırcılar çarşısındaki tezgâhımızda her parçanın ayarı, gramı ve işçiliği ayrı yazılır. Bu sayıda üç dipnot var.",
+          "en": "At our bench in the coppersmiths' bazaar, every piece has its karat, weight and making charge written separately. This issue has three footnotes.",
+          "ar": "على طاولتنا في سوق النحّاسين تُكتب لكل قطعة عيارها ووزنها ومصنعيتها كلٌّ على حدة. في هذا العدد ثلاث حواشٍ."
+        },
+        "img": "/img/kuyumcu-atolye-el.webp",
+        "img2": "",
+        "video": "",
+        "poster": "",
+        "alt": {
+          "tr": "Şekil 1 — Taş yuvası cımbızla ayarlanan altın yüzük (temsilî)",
+          "en": "Figure 1 — A gold ring whose stone setting is adjusted with tweezers (representative)",
+          "ar": "الشكل 1 — خاتم ذهبي يُضبط مكان حجره بالملقط (صورة تمثيلية)"
+        },
+        "cta_ad": {
+          "tr": "Koleksiyon",
+          "en": "Collection",
+          "ar": "المجموعة"
+        },
+        "cta_url": "hizmetler",
+        "cta2_ad": {
+          "tr": "Ekspertiz",
+          "en": "Appraisal",
+          "ar": "التقييم"
+        },
+        "cta2_url": "teklif-al",
+        "rozet_ikon": "workspace_premium",
+        "rozet_deger": "22",
+        "rozet_metin": {
+          "tr": "ayar damgalı",
+          "en": "karat hallmarked",
+          "ar": "عيار مدموغ"
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "yukseklik": 80,
+        "eyebrow": {
+          "tr": "Atölye defteri · Sayı 07",
+          "en": "Atelier journal · Issue 07",
+          "ar": "دفتر الأتيليه · العدد 07"
+        },
+        "title": {
+          "tr": "Altın tartılır, sonra konuşulur",
+          "en": "Gold is weighed first, then discussed",
+          "ar": "الذهب يُوزن أولًا ثم نتحدث"
+        },
+        "cta1": {
+          "tr": "Koleksiyon",
+          "en": "Collection",
+          "ar": "المجموعة"
+        },
+        "cta1_url": "hizmetler",
+        "cta2": {
+          "tr": "Ekspertiz",
+          "en": "Appraisal",
+          "ar": "التقييم"
+        },
+        "scroll_label": {
+          "tr": "Aşağı kaydır",
+          "en": "Scroll down",
+          "ar": "انزل للأسفل"
+        }
+      },
+      "data": [
+        {
+          "deger": "916",
+          "metin": {
+            "tr": "22 ayar binde 916 saf altın demektir; damga parçanın içindedir.",
+            "en": "22 karat means 916 parts per thousand of pure gold; the hallmark is inside the piece.",
+            "ar": "عيار 22 يعني 916 جزءًا من الألف ذهبًا خالصًا؛ والدمغة داخل القطعة."
+          }
+        },
+        {
+          "deger": "0,01",
+          "metin": {
+            "tr": "Tartım 0,01 gram hassas terazide, müşterinin gözü önünde yapılır.",
+            "en": "Weighing is done on a 0.01-gram precision scale, in front of the customer.",
+            "ar": "يتم الوزن على ميزان دقيق حتى 0.01 غرام أمام الزبون."
+          }
+        },
+        {
+          "deger": "₺",
+          "metin": {
+            "tr": "İşçilik altın bedelinden ayrı satırda yazılır; fiyatlar temsilîdir.",
+            "en": "The making charge is written on a separate line from the gold value; prices are representative.",
+            "ar": "تُكتب المصنعية في سطر منفصل عن قيمة الذهب؛ والأسعار تمثيلية."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "deger": "sayı/değer (ör. 1.200+, dil sözlüğü olabilir)",
+          "metin": "madde metni (dil sözlüğü)",
+          "img": "madde görseli (mozaik yerleşimlerde)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "g6ocvb",
+      "path": "acilis-dipnot-manset",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Değer Felsefe Sahnesi — bölüm menülü yatay tam genişlik sahneler",
+      "description": "Her değer tam genişlikte bir «sahne» (dev bölüm numarası ya da görsel + başlık ve açıklama); sahneler yatay kaydırılır, üstteki bölüm çipleri çapa menüsüdür ve ilerleme çubuğu kaçıncı sahnede olunduğunu gösterir. JS yoksa sahneler alt alta. deger-ray kart rayıdır (önceki/sonraki ok, birden çok kart görünür); bu modülde her seferinde tek bir tam genişlik sahne görünür, gezinme bölüm çipleri + ilerleme çubuğuyla (T: tek sayfa anlatı) olur. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "theaters",
+      "category": "values",
+      "subCategory": "horizontal-scenes",
+      "tags": [
+        "values",
+        "scenes",
+        "horizontal",
+        "chapters",
+        "progress",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Atölye felsefesi",
+          "en": "Atelier philosophy",
+          "ar": "فلسفة الأتيليه"
+        },
+        "baslik": {
+          "tr": "Dört sahnede bir takı",
+          "en": "A piece of jewellery in four scenes",
+          "ar": "قطعة مجوهرات في أربعة مشاهد"
+        },
+        "metin": {
+          "tr": "Ölçüden teslime aynı tezgâh. İçerik kurgusaldır.",
+          "en": "The same bench from sizing to handover. Content is fictional.",
+          "ar": "الطاولة نفسها من أخذ المقاس حتى التسليم. المحتوى افتراضي."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Atölye felsefesi",
+          "en": "Atelier philosophy",
+          "ar": "فلسفة الأتيليه"
+        },
+        "title": {
+          "tr": "Dört sahnede bir takı",
+          "en": "A piece of jewellery in four scenes",
+          "ar": "قطعة مجوهرات في أربعة مشاهد"
+        },
+        "description": {
+          "tr": "Ölçüden teslime aynı tezgâh. İçerik kurgusaldır.",
+          "en": "The same bench from sizing to handover. Content is fictional.",
+          "ar": "الطاولة نفسها من أخذ المقاس حتى التسليم. المحتوى افتراضي."
+        }
+      },
+      "data": [
+        {
+          "ikon": "straighten",
+          "etiket": {
+            "tr": "Sahne 1",
+            "en": "Scene 1",
+            "ar": "المشهد 1"
+          },
+          "baslik": {
+            "tr": "Ölçü",
+            "en": "Sizing",
+            "ar": "المقاس"
+          },
+          "metin": {
+            "tr": "Yüzük ölçüsü halka setiyle iki kez alınır; sabah ve akşam parmak aynı değildir.",
+            "en": "Ring size is taken twice with a sizing set; a finger is not the same in the morning and evening.",
+            "ar": "يُؤخذ مقاس الخاتم مرتين بطقم الحلقات؛ فالإصبع لا يكون نفسه صباحًا ومساءً."
+          },
+          "img": "/img/kuyumcu-yuzuk-olcusu.webp"
+        },
+        {
+          "ikon": "verified",
+          "etiket": {
+            "tr": "Sahne 2",
+            "en": "Scene 2",
+            "ar": "المشهد 2"
+          },
+          "baslik": {
+            "tr": "Ayar",
+            "en": "Karat",
+            "ar": "العيار"
+          },
+          "metin": {
+            "tr": "Her parça ayar damgasıyla teslim edilir; damgasız iş tezgâhtan çıkmaz.",
+            "en": "Every piece is handed over with its karat hallmark; nothing leaves the bench without it.",
+            "ar": "تُسلَّم كل قطعة بدمغة عيارها؛ ولا يخرج عمل من الطاولة دون دمغة."
+          },
+          "img": "/img/kuyumcu-urun-bilezik-1.webp"
+        },
+        {
+          "ikon": "handyman",
+          "etiket": {
+            "tr": "Sahne 3",
+            "en": "Scene 3",
+            "ar": "المشهد 3"
+          },
+          "baslik": {
+            "tr": "İşçilik",
+            "en": "Craft",
+            "ar": "الصنعة"
+          },
+          "metin": {
+            "tr": "Taş yuvası, burgu ve kilit elde yapılır; işçilik bedeli ayrı yazılır.",
+            "en": "Stone settings, twists and clasps are made by hand; the making charge is written separately.",
+            "ar": "تُصنع أماكن الأحجار واللفّات والأقفال يدويًا؛ ويُكتب ثمن المصنعية منفصلًا."
+          },
+          "img": "/img/kuyumcu-urun-yuzuk-2.webp"
+        },
+        {
+          "ikon": "build",
+          "etiket": {
+            "tr": "Sahne 4",
+            "en": "Scene 4",
+            "ar": "المشهد 4"
+          },
+          "baslik": {
+            "tr": "Onarım",
+            "en": "Repair",
+            "ar": "الإصلاح"
+          },
+          "metin": {
+            "tr": "Atölyeden çıkan her parçanın kilit ve lehim onarımı bir yıl ücretsizdir (kurgusal).",
+            "en": "Clasp and solder repairs on every piece from the atelier are free for a year (fictional).",
+            "ar": "إصلاح الأقفال واللحام لكل قطعة من الأتيليه مجاني لمدة عام (افتراضي)."
+          },
+          "img": "/img/kuyumcu-urun-bilezik-2.webp"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ikon": "Material Symbols adı",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "etiket": "dil sözlüğü (küçük üst etiket)",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı (kartın tamamı tıklanır)"
+        }
+      },
+      "id": "jywupc",
+      "path": "deger-felsefe-sahne",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "İletişim Deste — üst üste kart destesi, önceki/sonraki + nokta göstergesi, kaydırma",
+      "description": "Her kanal bir oyun kartı gibi destede: en üstteki kart büyük ikon, etiket, iri değer ve eylem bağlantısıyla; arkadakiler kademeli küçülüp aşağıda görünür. Önceki/sonraki düğmeleri, nokta göstergesi, ok tuşları (RTL'de ters) ve parmakla kaydırma desteyi döndürür; arkadaki kartlar inert. JS yoksa kartlar ızgarada yan yana. iletisim-ray yatay kaydırma rayı, iletisim-sekmeli sekme panelidir; bu modül üst üste YIĞILMIŞ DESTE: tek grid hücresinde --k sıra farkıyla translate/scale/opacity/z-index, döngüsel gezinme (desteCevir), kaydırma jesti ve nokta göstergesi. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "style",
+      "category": "contact",
+      "subCategory": "card-deck",
+      "tags": [
+        "contact",
+        "deck",
+        "stack",
+        "swipe",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "التواصل"
+        },
+        "baslik": {
+          "tr": "Tezgâha ulaşmanın beş yolu",
+          "en": "Five ways to reach the bench",
+          "ar": "خمس طرق للوصول إلى الطاولة"
+        },
+        "metin": {
+          "tr": "Kartları kaydırın; en üstteki kanal öne çıkar.",
+          "en": "Swipe the cards; the top channel comes forward.",
+          "ar": "اسحب البطاقات؛ تظهر القناة العليا في المقدمة."
+        },
+        "adres": {
+          "tr": "Bakırcılar Çarşısı No: 14, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "14 Coppersmiths' Bazaar, Sahinbey, Gaziantep (fictional address)",
+          "ar": "سوق النحّاسين رقم 14، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "telefon": "+90 342 085 08 58",
+        "eposta": "atolye@lalkuyum.example",
+        "whatsapp": "903420850858",
+        "saat": {
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
+        },
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": {
+          "tr": "Merhaba Lal Kuyum, bir sorum var.",
+          "en": "Hello Lal Jewellery, I have a question.",
+          "ar": "مرحبًا لال للمجوهرات، لديّ سؤال."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "gonderim": "mailto",
+        "address": {
+          "tr": "Bakırcılar Çarşısı No: 14, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "14 Coppersmiths' Bazaar, Sahinbey, Gaziantep (fictional address)",
+          "ar": "سوق النحّاسين رقم 14، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 085 08 58",
+        "email": "atolye@lalkuyum.example",
+        "hours": {
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
+        },
+        "social": [],
+        "title": {
+          "tr": "Tezgâha ulaşmanın beş yolu",
+          "en": "Five ways to reach the bench",
+          "ar": "خمس طرق للوصول إلى الطاولة"
+        },
+        "description": {
+          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+        },
+        "panelTitle": {
+          "tr": "Lal Kuyum",
+          "en": "Lal Jewellery",
+          "ar": "لال للمجوهرات"
+        },
+        "panelText": {
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
+          "en": "Images are representative; this is a setup demo.",
+          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+        },
+        "formTitle": {
+          "tr": "Teklif formu",
+          "en": "Quote form",
+          "ar": "نموذج الطلب"
+        },
+        "subjects": [
+          {
+            "id": "a",
+            "name": {
+              "tr": "Yeni talep",
+              "en": "New request",
+              "ar": "طلب جديد"
+            }
+          },
+          {
+            "id": "b",
+            "name": {
+              "tr": "Ölçü ve keşif",
+              "en": "Measure and survey",
+              "ar": "قياس واستقصاء"
+            }
+          },
+          {
+            "id": "c",
+            "name": {
+              "tr": "Teknik soru",
+              "en": "Technical question",
+              "ar": "سؤال فني"
+            }
+          },
+          {
+            "id": "d",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "kvkkText": {
+          "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
+          "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler"
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      },
+      "id": "zeyua4",
+      "path": "iletisim-deste",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Menü Sekmeli Fiyat — kategori sekmeleri, noktalı fiyat satırları, seçim özeti",
+      "description": "Üstte etiket, başlık ve metin; altında kayıtların `kategori` alanından türeyen sekmeler, her sekmede ürün adı · noktalı çizgi · fiyat satırları (rozet, açıklama). Satırdaki «+» ürünü yan paneldeki seçim özetine ekler: adet, satır tutarı, toplam (sayfa dilinde para biçimi), «−» ile azaltma. Ödeme/sipariş yok — masada hatırlatma listesi. JS yokken tüm kategoriler başlıklı gruplar hâlinde alt alta. module ailesinde fiyatlı satır ve seçim yok (tanitim-sekmeli yalnız vizyon/misyon metni sekmeler). body/menu-liste'nin desing içi kategori + alerjen/arama iskeletinden farkı: data satırı (fiyat · kategori · rozet) okuyan hafif sekme + noktalı satır listesi ve yapışkan «seçim özeti» paneli (adetli toplam); alerjen, arama, yazdırma yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "restaurant_menu",
+      "category": "module",
+      "subCategory": "menu-tabs-tally",
+      "tags": [
+        "module",
+        "menu",
+        "tabs",
+        "price-list",
+        "tally",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Fiyat defteri",
+          "en": "Price book",
+          "ar": "دفتر الأسعار"
+        },
+        "baslik": {
+          "tr": "Ürün grubuna göre başlangıç bedelleri",
+          "en": "Starting prices by product group",
+          "ar": "أسعار البداية حسب فئة المنتج"
+        },
+        "metin": {
+          "tr": "Sekmeden grubu seçin; «+» ile mağazada bakmak istediklerinizi listeleyin. Fiyatlar temsilîdir, güncel kur değildir; kesin bedel mağazada tartım sonrası belirlenir.",
+          "en": "Pick a group from the tabs; list what you would like to see in store with \"+\". Prices are representative, not current rates; the exact price is set in store after weighing.",
+          "ar": "اختر الفئة من التبويبات وأضف بزر «+» ما تودّ رؤيته في المتجر. الأسعار تمثيلية وليست بسعر الصرف الحالي؛ ويُحدَّد السعر النهائي في المتجر بعد الوزن."
+        },
+        "img": "kuyumcu-urun-yuzuk-3.webp",
+        "img2": "",
+        "cta_ad": {
+          "tr": "Ekspertiz",
+          "en": "Appraisal",
+          "ar": "التقييم"
+        },
+        "cta_url": "teklif-al",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "paraBirimi": "TRY",
+        "secimAd": {
+          "tr": "Bakılacaklar listesi",
+          "en": "To-see list",
+          "ar": "قائمة المعاينة"
+        },
+        "secimBos": {
+          "tr": "Parçanın yanındaki + ile ekleyin; mağazada gösterin.",
+          "en": "Add pieces with + and show the list in store.",
+          "ar": "أضف القطع بزر + وأظهر القائمة في المتجر."
+        },
+        "secimNot": {
+          "tr": "Toplam temsilîdir, güncel kur değildir; çevrimiçi satış yoktur.",
+          "en": "The total is representative, not a current rate; there are no online sales.",
+          "ar": "المجموع تمثيلي وليس بسعر الصرف الحالي؛ لا يوجد بيع عبر الإنترنت."
+        },
+        "temizleAd": {
+          "tr": "Listeyi temizle",
+          "en": "Clear list",
+          "ar": "مسح القائمة"
+        },
+        "sekmeAd": {
+          "tr": "Ürün grupları",
+          "en": "Product groups",
+          "ar": "فئات المنتجات"
+        },
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": {
+          "tr": "Fiyat defteri",
+          "en": "Price book",
+          "ar": "دفتر الأسعار"
+        },
+        "name": {
+          "tr": "Ürün grubuna göre başlangıç bedelleri",
+          "en": "Starting prices by product group",
+          "ar": "أسعار البداية حسب فئة المنتج"
+        },
+        "description": {
+          "tr": "Fiyatlar temsilîdir, güncel kur değildir; kesin bedel mağazada tartım sonrası belirlenir.",
+          "en": "Prices are representative, not current rates; the exact price is set in store after weighing.",
+          "ar": "الأسعار تمثيلية وليست بسعر الصرف الحالي؛ ويُحدَّد السعر النهائي في المتجر بعد الوزن."
+        },
+        "name2": "",
+        "spot2": "",
+        "icon2": "",
+        "name3": "",
+        "spot3": "",
+        "icon3": ""
+      },
+      "data": [
+        {
+          "kategori": {
+            "tr": "Bilezik",
+            "en": "Bangles",
+            "ar": "الأساور"
+          },
+          "ikon": "circle",
+          "baslik": {
+            "tr": "Düz bilezik",
+            "en": "Plain bangle",
+            "ar": "سوار سادة"
+          },
+          "fiyat": 31500,
+          "metin": {
+            "tr": "22 ayar · ≈ 10 gr · işçilik ayrı yazılır",
+            "en": "22K · ≈ 10 g · making charge listed separately",
+            "ar": "عيار 22 · ≈ 10 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Bilezik",
+            "en": "Bangles",
+            "ar": "الأساور"
+          },
+          "ikon": "circle",
+          "baslik": {
+            "tr": "Burgu bilezik",
+            "en": "Twisted bangle",
+            "ar": "سوار ملفوف"
+          },
+          "fiyat": 47900,
+          "metin": {
+            "tr": "22 ayar · ≈ 15 gr · işçilik ayrı yazılır",
+            "en": "22K · ≈ 15 g · making charge listed separately",
+            "ar": "عيار 22 · ≈ 15 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Bilezik",
+            "en": "Bangles",
+            "ar": "الأساور"
+          },
+          "ikon": "link",
+          "baslik": {
+            "tr": "Zincir bileklik",
+            "en": "Chain bracelet",
+            "ar": "سوار سلسلة"
+          },
+          "fiyat": 13900,
+          "metin": {
+            "tr": "14 ayar · ≈ 6,5 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 6.5 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 6.5 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Yüzük",
+            "en": "Rings",
+            "ar": "الخواتم"
+          },
+          "ikon": "radio_button_unchecked",
+          "baslik": {
+            "tr": "Alyans (çift)",
+            "en": "Wedding bands (pair)",
+            "ar": "دبلتا زواج (زوج)"
+          },
+          "fiyat": 17800,
+          "metin": {
+            "tr": "14 ayar · ≈ 8 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 8 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 8 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Yüzük",
+            "en": "Rings",
+            "ar": "الخواتم"
+          },
+          "ikon": "diamond",
+          "baslik": {
+            "tr": "Taşlı tektaş",
+            "en": "Solitaire ring",
+            "ar": "خاتم بحجر واحد"
+          },
+          "fiyat": 12400,
+          "metin": {
+            "tr": "18 ayar · ≈ 3,2 gr · işçilik ayrı yazılır",
+            "en": "18K · ≈ 3.2 g · making charge listed separately",
+            "ar": "عيار 18 · ≈ 3.2 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Yüzük",
+            "en": "Rings",
+            "ar": "الخواتم"
+          },
+          "ikon": "radio_button_unchecked",
+          "baslik": {
+            "tr": "Sarmal yüzük",
+            "en": "Wrap ring",
+            "ar": "خاتم ملتف"
+          },
+          "fiyat": 6900,
+          "metin": {
+            "tr": "14 ayar · ≈ 2,8 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 2.8 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 2.8 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Kolye",
+            "en": "Necklaces",
+            "ar": "القلائد"
+          },
+          "ikon": "water_drop",
+          "baslik": {
+            "tr": "Damla kolye",
+            "en": "Drop pendant",
+            "ar": "قلادة قطرة"
+          },
+          "fiyat": 8600,
+          "metin": {
+            "tr": "14 ayar · ≈ 3,5 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 3.5 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 3.5 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Kolye",
+            "en": "Necklaces",
+            "ar": "القلائد"
+          },
+          "ikon": "toll",
+          "baslik": {
+            "tr": "Madalyon kolye",
+            "en": "Medallion necklace",
+            "ar": "قلادة ميدالية"
+          },
+          "fiyat": 22400,
+          "metin": {
+            "tr": "22 ayar · ≈ 7 gr · işçilik ayrı yazılır",
+            "en": "22K · ≈ 7 g · making charge listed separately",
+            "ar": "عيار 22 · ≈ 7 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Küpe",
+            "en": "Earrings",
+            "ar": "الأقراط"
+          },
+          "ikon": "water_drop",
+          "baslik": {
+            "tr": "Damla küpe (çift)",
+            "en": "Drop earrings (pair)",
+            "ar": "قرطا قطرة (زوج)"
+          },
+          "fiyat": 9500,
+          "metin": {
+            "tr": "14 ayar · ≈ 4 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 4 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 4 غ · تُكتب المصنعية منفصلة"
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Küpe",
+            "en": "Earrings",
+            "ar": "الأقراط"
+          },
+          "ikon": "radio_button_unchecked",
+          "baslik": {
+            "tr": "Halka küpe (çift)",
+            "en": "Hoop earrings (pair)",
+            "ar": "قرطا حلقة (زوج)"
+          },
+          "fiyat": 7200,
+          "metin": {
+            "tr": "14 ayar · ≈ 3 gr · işçilik ayrı yazılır",
+            "en": "14K · ≈ 3 g · making charge listed separately",
+            "ar": "عيار 14 · ≈ 3 غ · تُكتب المصنعية منفصلة"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "hpbofb",
+      "path": "menu-sekmeli-fiyat",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Çağrı Ekspertiz Takas — rapor sayfası + takas formu",
+      "description": "İki bölmeli rapor kartı: başlangıçta damga ikonu, başlık, metin ve görününce sırayla onaylanan ekspertiz kapsamı (data); bitişte vurgu bölmesinde araç + kilometre girişli takas formu — gönderimde WhatsApp hazır mesajı (numara yoksa btn1Url'e GET: vehicle · km). cagri-maddeler maddeleri durağan listeler; bu modül maddeleri onay animasyonlu bir rapor sayfası olarak dizer ve yanına ziyaretçinin aracını yazdığı form koyar — cagri-whatsapp'ın sabit mesajı yerine form verisiyle kurulan mesaj. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık da düğme de yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "directions_car",
+      "category": "cta",
+      "subCategory": "trade-in",
+      "tags": [
+        "cta",
+        "trade-in",
+        "report",
+        "form",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Ekspertiz ve bozdurma",
+          "en": "Appraisal and buy-back",
+          "ar": "التقييم والبيع"
+        },
+        "baslik": {
+          "tr": "Eski altınınızı göz önünde tartalım",
+          "en": "Let us weigh your old gold in front of you",
+          "ar": "لنزن ذهبك القديم أمام عينيك"
+        },
+        "metin": {
+          "tr": "Parçayı ve yaklaşık gramını yazın; WhatsApp'ta hazır mesaj açılır. Bedel o günün mağaza alış fiyatıyla, tartımdan sonra yazılı verilir.",
+          "en": "Write the piece and its approximate weight; a ready message opens in WhatsApp. The price is given in writing after weighing, at that day's store buying rate.",
+          "ar": "اكتب القطعة ووزنها التقريبي؛ تُفتح رسالة جاهزة في واتساب. ويُعطى السعر كتابيًا بعد الوزن وفق سعر شراء المتجر في ذلك اليوم."
+        },
+        "btn1Text": {
+          "tr": "WhatsApp'a gönder",
+          "en": "Send on WhatsApp",
+          "ar": "أرسل عبر واتساب"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Text": "",
+        "btn2Url": "hizmetler",
+        "img": "",
+        "alt": "",
+        "ikon": "balance",
+        "not": {
+          "tr": "Form demodur; WhatsApp'ta hazır mesaj açılır, veri saklanmaz. Sitede alış fiyatı vaadi yoktur.",
+          "en": "The form is a demo; a ready message opens in WhatsApp and no data is stored. The site makes no buying-price promise.",
+          "ar": "النموذج تجريبي؛ تُفتح رسالة جاهزة في واتساب ولا تُحفظ البيانات. لا يتضمن الموقع أي وعد بسعر الشراء."
+        },
+        "number": "903420850858",
+        "numberText": "+90 342 085 08 58",
+        "waLabel": {
+          "tr": "Mesaj gönder",
+          "en": "Send a message",
+          "ar": "أرسل رسالة"
+        },
+        "waTitle": {
+          "tr": "WhatsApp ile yazın",
+          "en": "Write on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waMessage": {
+          "tr": "Merhaba Lal Kuyum, altın ekspertizi için randevu istiyorum.",
+          "en": "Hello Lal Jewellery, I would like an appointment for a gold appraisal.",
+          "ar": "مرحبًا لال للمجوهرات، أودّ موعدًا لتقييم الذهب."
+        },
+        "hours": {
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "yaziRenk": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "sag": "whatsapp",
+        "title": {
+          "tr": "Eski altınınızı göz önünde tartalım",
+          "en": "Let us weigh your old gold in front of you",
+          "ar": "لنزن ذهبك القديم أمام عينيك"
+        },
+        "btn1Label": {
+          "tr": "Ekspertiz iste",
+          "en": "Request appraisal",
+          "ar": "اطلب التقييم"
+        },
+        "btn2Label": {
+          "tr": "Koleksiyon",
+          "en": "Collection",
+          "ar": "المجموعة"
+        },
+        "description": {
+          "tr": "Parçayı ve yaklaşık gramını yazın; WhatsApp'ta hazır mesaj açılır. Bedel tartımdan sonra yazılı verilir.",
+          "en": "Write the piece and its approximate weight; a ready message opens in WhatsApp. The price is given in writing after weighing.",
+          "ar": "اكتب القطعة ووزنها التقريبي؛ تُفتح رسالة جاهزة في واتساب. ويُعطى السعر كتابيًا بعد الوزن."
+        },
+        "aracAd": {
+          "tr": "Parça (tür, ayar)",
+          "en": "Piece (type, karat)",
+          "ar": "القطعة (النوع، العيار)"
+        },
+        "kmAd": {
+          "tr": "Yaklaşık gram",
+          "en": "Approximate grams",
+          "ar": "الوزن التقريبي بالغرام"
+        },
+        "raporAd": {
+          "tr": "Ekspertizde neye bakılır?",
+          "en": "What the appraisal covers",
+          "ar": "ما الذي يشمله التقييم؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "science",
+          "baslik": {
+            "tr": "Mihenk taşında ayar testi",
+            "en": "Touchstone karat test",
+            "ar": "اختبار العيار بحجر المحك"
+          },
+          "aciklama": {
+            "tr": "Parçaya zarar vermeden",
+            "en": "Without damaging the piece",
+            "ar": "دون إتلاف القطعة"
+          }
+        },
+        {
+          "ikon": "balance",
+          "baslik": {
+            "tr": "Hassas terazide tartım",
+            "en": "Precision-scale weighing",
+            "ar": "الوزن على ميزان دقيق"
+          },
+          "aciklama": {
+            "tr": "0,01 gram, göz önünde",
+            "en": "0.01 g, in plain sight",
+            "ar": "0.01 غ أمام عينيك"
+          }
+        },
+        {
+          "ikon": "diamond",
+          "baslik": {
+            "tr": "Taş ve lehim ayrımı",
+            "en": "Stones and solder deducted",
+            "ar": "فصل الأحجار واللحام"
+          },
+          "aciklama": {
+            "tr": "Altın olmayan ağırlık düşülür",
+            "en": "Non-gold weight is deducted",
+            "ar": "يُخصم الوزن غير الذهبي"
+          }
+        },
+        {
+          "ikon": "receipt_long",
+          "baslik": {
+            "tr": "Yazılı ekspertiz fişi",
+            "en": "Written appraisal slip",
+            "ar": "إيصال تقييم مكتوب"
+          },
+          "aciklama": {
+            "tr": "Ayar, net gram ve bedel",
+            "en": "Karat, net weight and price",
+            "ar": "العيار والوزن الصافي والسعر"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      },
+      "id": "1kb49r",
+      "path": "cagri-ekspertiz-takas",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Alt Dev Harf — footer'ın dibine oturan kırpık dev site adı",
+      "description": "Üstte logo, büyük punto tanıtım cümlesi ve düğme; ortada çizgiler arasında iri sayfa satırı, ikincil bağlantılar, iletişim ve saatler; en dipte ekran genişliğinde, alt yarısı kırpılmış dev site adı (hover'da yükselir). Marka adı footer'ın zemini olur: ekran boyu, yarısı kesik, soluk vurgu tonunda bir harf duvarı — moda ve vitrin markalarının imza kapanışı; ad süs olarak ekran okuyucudan gizli. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "format_size",
+      "category": "footer",
+      "subCategory": "giant-wordmark",
+      "tags": [
+        "footer",
+        "wordmark",
+        "giant-type",
+        "editorial",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "hakkinda": {
+          "tr": "Lal Kuyum: bakırcılar çarşısında kurgusal el işi kuyum atölyesi. Fiyatlar temsilîdir, güncel kur değildir.",
+          "en": "Lal Jewellery: a fictional handmade jewellery atelier in the coppersmiths' bazaar. Prices are representative, not current rates.",
+          "ar": "لال للمجوهرات: أتيليه مجوهرات يدوية افتراضي في سوق النحّاسين. الأسعار تمثيلية وليست بسعر الصرف الحالي."
+        },
+        "tel": "+90 342 085 08 58",
+        "eposta": "atolye@lalkuyum.example",
+        "adres": {
+          "tr": "Bakırcılar Çarşısı No: 14, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "14 Coppersmiths' Bazaar, Sahinbey, Gaziantep (fictional address)",
+          "ar": "سوق النحّاسين رقم 14، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "cta_ad": {
+          "tr": "Ekspertiz randevusu",
+          "en": "Appraisal appointment",
+          "ar": "موعد التقييم"
+        },
+        "cta_url": "teklif-al",
+        "rightsText": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "showlang": true,
+        "maxpages": 8,
+        "nlShow": true,
+        "nlGonderim": "mailto",
+        "about": {
+          "tr": "Lal Kuyum demo temadır; fiyatlar temsilîdir, güncel kur değildir; içerik kurgusaldır.",
+          "en": "Lal Jewellery is a demo theme; prices are representative, not current rates; content is fictional.",
+          "ar": "لال للمجوهرات قالب تجريبي؛ الأسعار تمثيلية وليست بسعر الصرف الحالي؛ والمحتوى افتراضي."
+        },
+        "address": {
+          "tr": "Bakırcılar Çarşısı No: 14, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "14 Coppersmiths' Bazaar, Sahinbey, Gaziantep (fictional address)",
+          "ar": "سوق النحّاسين رقم 14، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 085 08 58",
+        "email": "atolye@lalkuyum.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "name": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "name": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "nlTitle": {
+          "tr": "Haberdar olun",
+          "en": "Stay informed",
+          "ar": "ابقَ على اطلاع"
+        },
+        "nlText": {
+          "tr": "Yeni duyurular için e-posta bırakın. Bu demo sitede veri saklanmaz.",
+          "en": "Leave your e-mail for new announcements. No data is stored on this demo site.",
+          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+        },
+        "nlKvkk": {
+          "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
+          "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "services": [],
+        "hours": [
+          {
+            "days": {
+              "tr": "Pazartesi – Cumartesi",
+              "en": "Monday – Saturday",
+              "ar": "الاثنين – السبت"
+            },
+            "time": "10:00 – 19:00"
+          },
+          {
+            "days": {
+              "tr": "Pazar",
+              "en": "Sunday",
+              "ar": "الأحد"
+            },
+            "time": {
+              "tr": "Kapalı",
+              "en": "Closed",
+              "ar": "مغلق"
+            }
+          }
+        ],
+        "title_hours": {
+          "tr": "Atölye saatleri",
+          "en": "Atelier hours",
+          "ar": "ساعات الأتيليه"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      },
+      "id": "0s9g5z",
+      "path": "alt-harf-dev",
+      "local": "footer",
+      "index": 18
+    },
+    {
+      "name": "Galeri Büyüteç — dikey raf + yakın çekim büyüteçli sahne",
+      "description": "Bir yanda dikey küçük resim rafı, ortada kare sahne görseli, yanında kategori + ad + açıklama paneli. Fareyle görselin üzerine gelince imlecin olduğu noktaya yakınlaşır (desing.olcek kat), dokunuşta/Enter ile büyüteç açılır, sürükleme ve ok tuşlarıyla görsel içinde gezilir, Esc kapatır. JS yokken görseller iki sütunda, üzerine gelince ortadan yakınlaşır. En çok 10 görsel. galeri-slayt tek büyük görsel + yatay küçük resim şeridi (secim) sunar, yakınlaştırma yoktur; galeri-buyut görseli yalnız tam ekran açar. Bu modül ürün detayına odaklanır: imleç izleyen yakın çekim (transform-origin), dokunmatik/klavye ile kaydırılan büyüteç ve dikey raf — taş, işçilik, doku göstermek için. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "loupe",
+      "category": "galeri",
+      "subCategory": "zoom-loupe",
+      "tags": [
+        "galeri",
+        "zoom",
+        "loupe",
+        "product-detail",
+        "thumbnails",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Koleksiyon",
+          "en": "Collection",
+          "ar": "المجموعة"
+        },
+        "baslik": {
+          "tr": "Yakından bakın: işçilik ayrıntıda",
+          "en": "Look closely: craft is in the detail",
+          "ar": "انظر عن قرب: الصنعة في التفاصيل"
+        },
+        "metin": {
+          "tr": "Görselin üzerine gelin ya da dokunun; büyüteçle taş yuvasını, kilidi ve burguyu görün. Görseller temsilîdir.",
+          "en": "Hover over or tap the image; see the stone setting, clasp and twist with the magnifier. Images are representative.",
+          "ar": "مرّر المؤشر فوق الصورة أو المسها؛ لترى مكان الحجر والقفل واللفّة بالعدسة المكبّرة. الصور تمثيلية."
+        },
+        "tumu": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "olcek": 2.4,
+        "lupAd": {
+          "tr": "Yakınlaştır",
+          "en": "Zoom in",
+          "ar": "تكبير"
+        },
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "cats": [
+          {
+            "id": "yuzuk",
+            "name": {
+              "tr": "Yüzük",
+              "en": "Rings",
+              "ar": "الخواتم"
+            }
+          },
+          {
+            "id": "bilezik",
+            "name": {
+              "tr": "Bilezik",
+              "en": "Bangles",
+              "ar": "الأساور"
+            }
+          },
+          {
+            "id": "kolye",
+            "name": {
+              "tr": "Kolye",
+              "en": "Necklaces",
+              "ar": "القلائد"
+            }
+          },
+          {
+            "id": "kupe",
+            "name": {
+              "tr": "Küpe",
+              "en": "Earrings",
+              "ar": "الأقراط"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "/img/kuyumcu-urun-yuzuk-1.webp",
+          "kat": "yuzuk",
+          "baslik": {
+            "tr": "Kadife üzerinde yeşil taşlı yüzük",
+            "en": "Green-stone ring on velvet",
+            "ar": "خاتم بحجر أخضر على المخمل"
+          },
+          "alt": {
+            "tr": "Kadife üzerinde yeşil taşlı yüzük",
+            "en": "Green-stone ring on velvet",
+            "ar": "خاتم بحجر أخضر على المخمل"
+          },
+          "metin": {
+            "tr": "18 ayar, dört tırnaklı yuva; taş temsilîdir.",
+            "en": "18K, four-prong setting; the stone is representative.",
+            "ar": "عيار 18، مكان بأربعة مخالب؛ الحجر تمثيلي."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-yuzuk-2.webp",
+          "kat": "yuzuk",
+          "baslik": {
+            "tr": "Oval taşlı yüzük",
+            "en": "Oval-stone ring",
+            "ar": "خاتم بحجر بيضاوي"
+          },
+          "alt": {
+            "tr": "Oval taşlı yüzük",
+            "en": "Oval-stone ring",
+            "ar": "خاتم بحجر بيضاوي"
+          },
+          "metin": {
+            "tr": "Elde dövülmüş gövde, açık arka yuva.",
+            "en": "Hand-forged shank, open-back setting.",
+            "ar": "ساق مطروقة يدويًا ومكان مفتوح من الخلف."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-yuzuk-3.webp",
+          "kat": "yuzuk",
+          "baslik": {
+            "tr": "Sarmal altın yüzük",
+            "en": "Gold wrap ring",
+            "ar": "خاتم ذهبي ملتف"
+          },
+          "alt": {
+            "tr": "Sarmal altın yüzük",
+            "en": "Gold wrap ring",
+            "ar": "خاتم ذهبي ملتف"
+          },
+          "metin": {
+            "tr": "14 ayar, tek parça döküm ve el cilası.",
+            "en": "14K, single-piece cast with hand polish.",
+            "ar": "عيار 14، صبّ قطعة واحدة وتلميع يدوي."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-bilezik-1.webp",
+          "kat": "bilezik",
+          "baslik": {
+            "tr": "Düz altın bilezik",
+            "en": "Plain gold bangle",
+            "ar": "سوار ذهبي سادة"
+          },
+          "alt": {
+            "tr": "Düz altın bilezik",
+            "en": "Plain gold bangle",
+            "ar": "سوار ذهبي سادة"
+          },
+          "metin": {
+            "tr": "22 ayar, iç yüzde ayar damgası.",
+            "en": "22K, hallmark on the inner face.",
+            "ar": "عيار 22، الدمغة على الوجه الداخلي."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-bilezik-2.webp",
+          "kat": "bilezik",
+          "baslik": {
+            "tr": "Taşlı zincir bileklik",
+            "en": "Chain bracelet with a stone",
+            "ar": "سوار سلسلة بحجر"
+          },
+          "alt": {
+            "tr": "Taşlı zincir bileklik",
+            "en": "Chain bracelet with a stone",
+            "ar": "سوار سلسلة بحجر"
+          },
+          "metin": {
+            "tr": "El örmesi halkalar, kutu kilit.",
+            "en": "Hand-linked chain, box clasp.",
+            "ar": "حلقات موصولة يدويًا وقفل صندوقي."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-kolye-1.webp",
+          "kat": "kolye",
+          "baslik": {
+            "tr": "Damla kolye",
+            "en": "Drop pendant",
+            "ar": "قلادة قطرة"
+          },
+          "alt": {
+            "tr": "Damla kolye",
+            "en": "Drop pendant",
+            "ar": "قلادة قطرة"
+          },
+          "metin": {
+            "tr": "14 ayar, ince forse zincir.",
+            "en": "14K, fine cable chain.",
+            "ar": "عيار 14، سلسلة رفيعة."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-kolye-2.webp",
+          "kat": "kolye",
+          "baslik": {
+            "tr": "Madalyon kolye",
+            "en": "Medallion necklace",
+            "ar": "قلادة ميدالية"
+          },
+          "alt": {
+            "tr": "Madalyon kolye",
+            "en": "Medallion necklace",
+            "ar": "قلادة ميدالية"
+          },
+          "metin": {
+            "tr": "Kabartma desen, temsilî görsel.",
+            "en": "Embossed design, representative image.",
+            "ar": "نقش بارز، صورة تمثيلية."
+          },
+          "w": 900,
+          "h": 900
+        },
+        {
+          "img": "/img/kuyumcu-urun-kupe.webp",
+          "kat": "kupe",
+          "baslik": {
+            "tr": "Damla küpe",
+            "en": "Drop earrings",
+            "ar": "أقراط قطرة"
+          },
+          "alt": {
+            "tr": "Damla küpe",
+            "en": "Drop earrings",
+            "ar": "أقراط قطرة"
+          },
+          "metin": {
+            "tr": "Kancalı, hafif içi boş form.",
+            "en": "Hook fitting, light hollow form.",
+            "ar": "بخطّاف وشكل مجوّف خفيف."
+          },
+          "w": 900,
+          "h": 900
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "img": "görsel yolu (boşsa yer tutucu)",
+          "baslik": "dil sözlüğü (resim adı)",
+          "alt": "dil sözlüğü (boşsa başlık)",
+          "metin": "dil sözlüğü (kısa açıklama)",
+          "kat": "kategori kimliği (desing.cats id'si)",
+          "url": "iç/dış bağlantı",
+          "w": "görsel genişliği (px, oran için)",
+          "h": "görsel yüksekliği (px)",
+          "kucuk": "küçük görsel (varsa ızgarada bu)"
+        }
+      },
+      "id": "71gznm",
+      "path": "galeri-buyutec",
+      "local": "body",
+      "index": 19
+    }
+  ]
+}

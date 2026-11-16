@@ -1,0 +1,40 @@
+{
+  "id": "gsdfa99hyl",
+  "name": {
+    "tr": "Ekspertiz",
+    "en": "Appraisal",
+    "ar": "التقييم"
+  },
+  "description": {
+    "tr": "Altın ekspertizi ve bozdurma talebi (demo).",
+    "en": "Gold appraisal and buy-back request (demo).",
+    "ar": "طلب تقييم الذهب وبيعه (تجريبي)."
+  },
+  "keyword": {
+    "tr": "altın ekspertizi, bozdurma",
+    "en": "gold appraisal, buy-back",
+    "ar": "تقييم الذهب، بيع الذهب"
+  },
+  "path": "teklif-al",
+  "icon": "balance",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "1kb49r",
+      "zeyua4"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ekspertiz",
+    "en": "Appraisal",
+    "ar": "التقييم"
+  },
+  "date": "2026-11-16T16:04:58.390Z",
+  "update": "2026-11-16T16:19:50.257Z"
+}

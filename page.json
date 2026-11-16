@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "id": "w1yax4u1mg",
+      "name": {
+        "tr": "Koleksiyon",
+        "en": "Collection",
+        "ar": "المجموعة"
+      },
+      "description": {
+        "tr": "Koleksiyon ve temsilî başlangıç fiyatları.",
+        "en": "Collection and representative starting prices.",
+        "ar": "المجموعة وأسعار البداية التمثيلية."
+      },
+      "path": "hizmetler",
+      "icon": "diamond",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "71gznm",
+          "hpbofb"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Atölye",
+        "en": "Atelier",
+        "ar": "الأتيليه"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "jywupc",
+          "1kb49r"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Ölçüden onarıma atölye felsefesi.",
+        "en": "The atelier philosophy from sizing to repair.",
+        "ar": "فلسفة الأتيليه من المقاس إلى الإصلاح."
+      }
+    },
+    {
+      "id": "gsdfa99hyl",
+      "name": {
+        "tr": "Ekspertiz",
+        "en": "Appraisal",
+        "ar": "التقييم"
+      },
+      "description": {
+        "tr": "Altın ekspertizi ve bozdurma talebi (demo).",
+        "en": "Gold appraisal and buy-back request (demo).",
+        "ar": "طلب تقييم الذهب وبيعه (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "balance",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1kb49r",
+          "zeyua4"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "zeyua4",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}
