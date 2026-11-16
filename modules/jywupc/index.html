@@ -1,0 +1,123 @@
+<section class="modulex-deger-felsefe-sahne{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-deger-felsefe-sahne-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* deger-felsefe-sahne — deger-ray kart rayıdır (önceki/sonraki ok, birden çok kart görünür); bu modülde her seferinde tek bir tam genişlik sahne görünür, gezinme bölüm çipleri + ilerleme çubuğuyla (T: tek sayfa anlatı) olur. */
+  .modulex-deger-felsefe-sahne { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-deger-felsefe-sahne *, .modulex-deger-felsefe-sahne *::before, .modulex-deger-felsefe-sahne *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-deger-felsefe-sahne :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-deger-felsefe-sahne :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-deger-felsefe-sahne :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-deger-felsefe-sahne :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-deger-felsefe-sahne img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-deger-felsefe-sahne) img { height: auto; }
+  .modulex-deger-felsefe-sahne [hidden] { display: none !important; }
+  .modulex-deger-felsefe-sahne :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-deger-felsefe-sahne :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-deger-felsefe-sahne-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-deger-felsefe-sahne-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-deger-felsefe-sahne--bassiz .modulex-deger-felsefe-sahne-bas { display: none; }
+  .modulex-deger-felsefe-sahne-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-deger-felsefe-sahne-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-deger-felsefe-sahne-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-deger-felsefe-sahne-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-deger-felsefe-sahne-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-deger-felsefe-sahne-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-deger-felsefe-sahne-dugme:hover { transform: translateY(-2px); }
+  .modulex-deger-felsefe-sahne-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-deger-felsefe-sahne-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-deger-felsefe-sahne-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-deger-felsefe-sahne-bolumler { display: grid; gap: 14px; margin-block-end: 22px; }
+  .modulex-deger-felsefe-sahne-bliste { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+  .modulex-deger-felsefe-sahne-bliste::-webkit-scrollbar { display: none; }
+  .modulex-deger-felsefe-sahne-bolum { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border: 1px solid --cizgi--; border-radius: 999px; color: --text--; font-weight: 650; text-decoration: none; white-space: nowrap; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease; }
+  .modulex-deger-felsefe-sahne-bolum:hover { border-color: --accent--; }
+  .modulex-deger-felsefe-sahne-bolum[aria-current] { border-color: --text--; background: --text--; color: --bg--; }
+  .modulex-deger-felsefe-sahne-bno { font-size: 0.8rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-deger-felsefe-sahne-cubuk { position: relative; display: block; height: 4px; overflow: hidden; border-radius: 4px; background: --cizgi--; }
+  .modulex-deger-felsefe-sahne-dolu { position: absolute; inset: 0; background: --accent--; transform: scaleX(var(--sahne, 0)); transform-origin: 0 50%; transition: transform 0.2s linear; }
+  [dir="rtl"] .modulex-deger-felsefe-sahne-dolu { transform-origin: 100% 50%; }
+  .modulex-deger-felsefe-sahne:not(.modulex-deger-felsefe-sahne--js) .modulex-deger-felsefe-sahne-cubuk { display: none; }
+  .modulex-deger-felsefe-sahne-sahneler { display: grid; gap: 18px; }
+  .modulex-deger-felsefe-sahne--js .modulex-deger-felsefe-sahne-sahneler { grid-auto-flow: column; grid-auto-columns: 100%; gap: 0; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: calc(--yuvarlak-- * 1.4); }
+  .modulex-deger-felsefe-sahne-sahneler::-webkit-scrollbar { display: none; }
+  .modulex-deger-felsefe-sahne-sahne { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); min-height: 420px; overflow: hidden; border-radius: calc(--yuvarlak-- * 1.4); background: --kartBg--; scroll-snap-align: start; }
+  .modulex-deger-felsefe-sahne--js .modulex-deger-felsefe-sahne-sahne { border-radius: 0; }
+  .modulex-deger-felsefe-sahne-sahne--1 { background: --vurguBg--; color: --vurguText--; }
+  .modulex-deger-felsefe-sahne-sahne--2 { background: --text--; color: --bg--; }
+  .modulex-deger-felsefe-sahne-sahne--1 :is(.modulex-deger-felsefe-sahne-kmetin, .modulex-deger-felsefe-sahne-ikon, .modulex-deger-felsefe-sahne-etiket, .modulex-deger-felsefe-sahne-pno), .modulex-deger-felsefe-sahne-sahne--2 :is(.modulex-deger-felsefe-sahne-kmetin, .modulex-deger-felsefe-sahne-ikon, .modulex-deger-felsefe-sahne-etiket, .modulex-deger-felsefe-sahne-pno) { color: inherit; }
+  .modulex-deger-felsefe-sahne-perde { display: grid; place-items: center; overflow: hidden; background: color-mix(in srgb, currentColor 6%, transparent); }
+  .modulex-deger-felsefe-sahne-gorsel { width: 100%; height: 100%; object-fit: cover; transition: transform 0.9s ease; }
+  .modulex-deger-felsefe-sahne--aktif .modulex-deger-felsefe-sahne-gorsel { transform: scale(1.04); }
+  .modulex-deger-felsefe-sahne-dev { color: transparent; -webkit-text-stroke: 2px --accentInk--; font-family: var(--mx-font-heading, inherit); font-size: clamp(6rem, 16vw, 13rem); font-weight: 800; letter-spacing: -0.05em; line-height: 0.9; transition: transform 0.8s ease; }
+  .modulex-deger-felsefe-sahne--aktif .modulex-deger-felsefe-sahne-dev { transform: translateY(-6px); }
+  .modulex-deger-felsefe-sahne-sahne--1 .modulex-deger-felsefe-sahne-dev { -webkit-text-stroke-color: --vurguText--; }
+  .modulex-deger-felsefe-sahne-sahne--2 .modulex-deger-felsefe-sahne-dev { -webkit-text-stroke-color: --bg--; }
+  .modulex-deger-felsefe-sahne-yazi { display: grid; align-content: center; gap: 14px; padding: clamp(28px, 5vw, 64px); }
+  .modulex-deger-felsefe-sahne-pno { color: --muted--; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; }
+  .modulex-deger-felsefe-sahne-ikon { color: --accentInk--; font-size: 40px; }
+  .modulex-deger-felsefe-sahne-etiket { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-deger-felsefe-sahne-kbaslik { font-size: clamp(1.7rem, 3.4vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-deger-felsefe-sahne-kmetin { max-width: 52ch; color: --muted--; font-size: 1.08rem; line-height: 1.75; }
+  @media (max-width: 768px) {
+    .modulex-deger-felsefe-sahne-sahne { grid-template-columns: minmax(0, 1fr); grid-template-rows: 170px auto; min-height: 0; }
+    .modulex-deger-felsefe-sahne-dev { font-size: 6rem; }
+  }
+  .modulex-deger-felsefe-sahne-bag { color: inherit; text-decoration: none; }
+  .modulex-deger-felsefe-sahne-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-deger-felsefe-sahne-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-felsefe-sahne :is(.modulex-deger-felsefe-sahne-baslik, .modulex-deger-felsefe-sahne-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-felsefe-sahne-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-deger-felsefe-sahne { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-deger-felsefe-sahne *, .modulex-deger-felsefe-sahne *::before, .modulex-deger-felsefe-sahne *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-deger-felsefe-sahne";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const sahne = (s, P, az) => {
+        const r = s.querySelector("[data-sahneler]");
+        if (!r || r.children.length < 2) return;
+        const git = [...s.querySelectorAll("[data-sahne-git]")];
+        const n = r.children.length;
+        s.classList.add(P + "--js");
+        let bekle = false;
+        const guncel = () => {
+          bekle = false;
+          const w = r.clientWidth || 1;
+          const x = Math.abs(r.scrollLeft);
+          const i = Math.max(0, Math.min(n - 1, Math.round(x / w)));
+          s.style.setProperty("--sahne", Math.min(1, (x / w + 1) / n).toFixed(3));
+          git.forEach((a, j) => { if (j === i) a.setAttribute("aria-current", "step"); else a.removeAttribute("aria-current"); });
+          [...r.children].forEach((c, j) => c.classList.toggle(P + "--aktif", j === i));
+        };
+        git.forEach((a) => a.addEventListener("click", (e) => {
+          e.preventDefault();
+          const j = Number(a.dataset.sahneGit) || 0;
+          const rtl = getComputedStyle(r).direction === "rtl";
+          r.scrollTo({ left: (rtl ? -1 : 1) * j * r.clientWidth, behavior: az ? "auto" : "smooth" });
+        }));
+        r.addEventListener("scroll", () => { if (!bekle) { bekle = true; requestAnimationFrame(guncel); } }, { passive: true });
+        window.addEventListener("resize", () => { if (!bekle) { bekle = true; requestAnimationFrame(guncel); } });
+        guncel();
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      sahne(s, P, az);
+    });
+  })();
+</script>

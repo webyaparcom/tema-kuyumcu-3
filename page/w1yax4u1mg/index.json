@@ -1,0 +1,40 @@
+{
+  "id": "w1yax4u1mg",
+  "name": {
+    "tr": "Koleksiyon",
+    "en": "Collection",
+    "ar": "المجموعة"
+  },
+  "description": {
+    "tr": "Koleksiyon ve temsilî başlangıç fiyatları.",
+    "en": "Collection and representative starting prices.",
+    "ar": "المجموعة وأسعار البداية التمثيلية."
+  },
+  "keyword": {
+    "tr": "yüzük, bilezik, kolye, küpe",
+    "en": "ring, bangle, necklace, earrings",
+    "ar": "خاتم، سوار، قلادة، أقراط"
+  },
+  "path": "hizmetler",
+  "icon": "diamond",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "71gznm",
+      "hpbofb"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Koleksiyon",
+    "en": "Collection",
+    "ar": "المجموعة"
+  },
+  "date": "2026-11-16T16:04:58.381Z",
+  "update": "2026-11-16T16:19:50.249Z"
+}

@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Lal Kuyum Atölyesi: bakırcılar çarşısında el işi altın; ölçüye yüzük, bilezik onarımı, altın ekspertizi ve bozdurma. Demo site; fiyatlar temsilîdir, içerik kurgusaldır.",
+    "en": "Lal Jewellery Atelier: handmade gold in the coppersmiths' bazaar; rings to size, bangle repair, gold appraisal and buy-back. Demo site; prices are representative, content is fictional.",
+    "ar": "أتيليه لال للمجوهرات: ذهب مصنوع يدويًا في سوق النحّاسين؛ خواتم حسب المقاس وإصلاح الأساور وتقييم الذهب وشراؤه. موقع تجريبي؛ الأسعار تمثيلية والمحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "kuyumcu, el işi altın, ölçüye yüzük, altın ekspertizi, altın bozdurma, Gaziantep",
+    "en": "jeweller, handmade gold, ring to size, gold appraisal, gold buy-back, Gaziantep",
+    "ar": "صائغ، ذهب يدوي، خاتم حسب المقاس، تقييم الذهب، بيع الذهب، غازي عنتاب"
+  },
+  "category": "Kurumsal",
+  "name": "Lal Kuyum",
+  "domain": "kuyumcu-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#C73549",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px"
+  },
+  "icon": "icon.png"
+}

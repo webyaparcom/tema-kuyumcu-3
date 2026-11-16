@@ -1,0 +1,102 @@
+<footer class="modulex-alt-harf-dev{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-harf-dev-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</footer>
+
+<style>
+  /* alt-harf-dev — Marka adı footer'ın zemini olur: ekran boyu, yarısı kesik, soluk vurgu tonunda bir harf duvarı — moda ve vitrin markalarının imza kapanışı; ad süs olarak ekran okuyucudan gizli. */
+  .modulex-alt-harf-dev { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-harf-dev *, .modulex-alt-harf-dev *::before, .modulex-alt-harf-dev *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-harf-dev :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-harf-dev :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-harf-dev :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-harf-dev :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-harf-dev img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-harf-dev) img { height: auto; }
+  .modulex-alt-harf-dev [hidden] { display: none !important; }
+  .modulex-alt-harf-dev :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-harf-dev :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-harf-dev-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-harf-dev-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-harf-dev--bassiz .modulex-alt-harf-dev-bas { display: none; }
+  .modulex-alt-harf-dev-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-harf-dev-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-harf-dev-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-harf-dev-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-harf-dev-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-harf-dev-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-harf-dev-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-harf-dev-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-harf-dev-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-alt-harf-dev-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-harf-dev-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-harf-dev-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-harf-dev-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-harf-dev-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-harf-dev-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-harf-dev-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-harf-dev-sayfalar, .modulex-alt-harf-dev-baglantilar, .modulex-alt-harf-dev-iletisim, .modulex-alt-harf-dev-yasal { display: grid; gap: 9px; }
+  .modulex-alt-harf-dev-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-harf-dev-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-harf-dev-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-harf-dev-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-harf-dev-saatler { display: grid; gap: 6px; }
+  .modulex-alt-harf-dev-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-harf-dev-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-harf-dev-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-harf-dev-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-harf-dev-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-harf-dev-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-harf-dev-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-harf-dev-dil:empty { display: none; }
+  .modulex-alt-harf-dev-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-harf-dev-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-harf-dev-bulten { display: grid; gap: 8px; }
+  .modulex-alt-harf-dev-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-harf-dev-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-harf-dev-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-harf-dev-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-harf-dev-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-harf-dev-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-harf-dev-nl-durum:empty { display: none; }
+  .modulex-alt-harf-dev-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-harf-dev-nl-metin { color: --muted--; }
+
+  .modulex-alt-harf-dev-hd-ust { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 20px 48px; padding-block-end: 32px; }
+  .modulex-alt-harf-dev-hd-sol { display: grid; gap: 18px; max-width: 640px; }
+  .modulex-alt-harf-dev-hd-soz { color: --text--; font-size: clamp(1.15rem, 2vw, 1.45rem); line-height: 1.5; }
+  .modulex-alt-harf-dev-hd-orta { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 0.8fr); gap: 28px 48px; padding-block: 32px; border-block: 1px solid --cizgi--; }
+  .modulex-alt-harf-dev-hd-nav { display: grid; align-content: start; gap: 14px; }
+  .modulex-alt-harf-dev-hd-satir { display: flex; flex-wrap: wrap; gap: 8px 26px; font-size: clamp(1.1rem, 1.8vw, 1.35rem); font-weight: 750; }
+  .modulex-alt-harf-dev-hd-satir2 { display: flex; flex-wrap: wrap; gap: 6px 20px; color: --muted--; }
+  .modulex-alt-harf-dev-hd-il { display: grid; align-content: start; gap: 12px; }
+  .modulex-alt-harf-dev-hd-saat { display: grid; align-content: start; gap: 8px; font-size: 0.95rem; }
+  .modulex-alt-harf-dev-hd-alt { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-block: 24px 10px; }
+  .modulex-alt-harf-dev-hd-yasal { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-inline-start: auto; font-size: 0.88rem; }
+  .modulex-alt-harf-dev-hd-devkap { height: 0.72em; overflow: hidden; font-size: clamp(3.6rem, 17vw, 15rem); margin-block-end: calc(--bosluk-- * -1); }
+  .modulex-alt-harf-dev-hd-dev { color: color-mix(in srgb, --accent-- 18%, --bg--); font-family: var(--mx-font-heading, inherit); font-weight: 900; letter-spacing: -0.05em; line-height: 0.86; white-space: nowrap; transform: translateY(0.12em); transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), color 0.5s ease; }
+  .modulex-alt-harf-dev:hover .modulex-alt-harf-dev-hd-dev { transform: translateY(0); color: color-mix(in srgb, --accent-- 30%, --bg--); }
+  @media (max-width: 1024px) {
+    .modulex-alt-harf-dev-hd-orta { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .modulex-alt-harf-dev-hd-nav { grid-column: 1 / -1; }
+  }
+  @media (max-width: 768px) {
+    .modulex-alt-harf-dev-hd-orta { grid-template-columns: minmax(0, 1fr); }
+    .modulex-alt-harf-dev-hd-yasal { margin-inline-start: 0; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-harf-dev :is(.modulex-alt-harf-dev-baslik, .modulex-alt-harf-dev-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-harf-dev-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-alt-harf-dev { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-alt-harf-dev *, .modulex-alt-harf-dev *::before, .modulex-alt-harf-dev *::after { animation: none !important; transition: none !important; }
+  }
+</style>

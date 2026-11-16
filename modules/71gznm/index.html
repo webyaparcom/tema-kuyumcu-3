@@ -1,0 +1,169 @@
+<section class="modulex-galeri-buyutec{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-galeri-buyutec-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* galeri-buyutec — galeri-slayt tek büyük görsel + yatay küçük resim şeridi (secim) sunar, yakınlaştırma yoktur; galeri-buyut görseli yalnız tam ekran açar. Bu modül ürün detayına odaklanır: imleç izleyen yakın çekim (transform-origin), dokunmatik/klavye ile kaydırılan büyüteç ve dikey raf — taş, işçilik, doku göstermek için. */
+  .modulex-galeri-buyutec { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-galeri-buyutec *, .modulex-galeri-buyutec *::before, .modulex-galeri-buyutec *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-galeri-buyutec :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-galeri-buyutec :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-galeri-buyutec :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-galeri-buyutec :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-galeri-buyutec img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-galeri-buyutec) img { height: auto; }
+  .modulex-galeri-buyutec [hidden] { display: none !important; }
+  .modulex-galeri-buyutec :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-galeri-buyutec :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-galeri-buyutec-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-galeri-buyutec-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-galeri-buyutec--bassiz .modulex-galeri-buyutec-bas { display: none; }
+  .modulex-galeri-buyutec-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-galeri-buyutec-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-galeri-buyutec-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-galeri-buyutec-bas { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px 48px; align-items: end; }
+  .modulex-galeri-buyutec-ust { grid-column: 1 / -1; }
+  .modulex-galeri-buyutec-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-galeri-buyutec-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-galeri-buyutec-dugme:hover { transform: translateY(-2px); }
+  .modulex-galeri-buyutec-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-galeri-buyutec-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-galeri-buyutec-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-galeri-buyutec-vitrin { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-vitrin:not(.modulex-galeri-buyutec-vitrin--tek) { grid-template-columns: 92px minmax(0, 1fr); align-items: start; }
+  .modulex-galeri-buyutec-raf { display: grid; grid-auto-rows: max-content; align-content: start; gap: 10px; max-height: 640px; padding: 2px; overflow-y: auto; scrollbar-width: thin; }
+  .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-raf { contain: size; align-self: stretch; max-height: none; }
+  .modulex-galeri-buyutec:not(.modulex-galeri-buyutec--ljs) .modulex-galeri-buyutec-raf { display: none; }
+  .modulex-galeri-buyutec-rafoge { display: block; aspect-ratio: 1; padding: 0; overflow: hidden; border: 2px solid transparent; border-radius: 12px; background: --kartBg--; opacity: 0.6; transition: opacity 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-galeri-buyutec-rafoge:hover { opacity: 0.9; transform: translateY(-2px); }
+  .modulex-galeri-buyutec-rafoge[aria-pressed="true"] { opacity: 1; border-color: --accent--; }
+  .modulex-galeri-buyutec-rafoge img, .modulex-galeri-buyutec-rafoge .modulex-galeri-buyutec-yer { width: 100%; aspect-ratio: 1; height: auto; object-fit: cover; }
+  .modulex-galeri-buyutec-sahneler { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 28px; min-width: 0; }
+  .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-sahneler { grid-template-columns: minmax(0, 1fr); }
+  .modulex-galeri-buyutec-sahne { display: grid; align-content: start; gap: 16px; margin: 0; }
+  .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-sahne { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: center; gap: clamp(22px, 4vw, 60px); animation: modulex-galeri-buyutec-gel 0.45s ease both; }
+  .modulex-galeri-buyutec-mercek { position: relative; display: block; width: 100%; padding: 0; overflow: hidden; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: --kartBg--; color: inherit; font: inherit; cursor: zoom-in; --x: 50%; --y: 50%; }
+  .modulex-galeri-buyutec-mercek--bos { cursor: default; }
+  .modulex-galeri-buyutec-mercek .modulex-galeri-buyutec-g { width: 100%; aspect-ratio: 1; height: auto; object-fit: cover; transform-origin: var(--x) var(--y); transition: transform 0.35s ease; }
+  .modulex-galeri-buyutec:not(.modulex-galeri-buyutec--ljs) .modulex-galeri-buyutec-mercek:hover .modulex-galeri-buyutec-g { transform: scale(1.6); }
+  .modulex-galeri-buyutec-mercek.modulex-galeri-buyutec--yakin { cursor: zoom-out; touch-action: none; }
+  .modulex-galeri-buyutec--yakin .modulex-galeri-buyutec-g { transform: scale(--olcek--); transition: transform 0.2s ease; }
+  .modulex-galeri-buyutec-halka { position: absolute; inset-block-end: 14px; inset-inline-end: 14px; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: --bg--; color: --text--; box-shadow: 0 10px 24px -12px color-mix(in srgb, --text-- 70%, transparent); transition: opacity 0.25s ease, transform 0.25s ease; }
+  .modulex-galeri-buyutec--yakin .modulex-galeri-buyutec-halka { opacity: 0; transform: scale(0.7); }
+  .modulex-galeri-buyutec-bilgi { display: grid; align-content: center; gap: 10px; }
+  .modulex-galeri-buyutec-sira { color: --accentInk--; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.1em; font-variant-numeric: tabular-nums; }
+  .modulex-galeri-buyutec-bilgi .modulex-galeri-buyutec-kbaslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.35rem, 2.5vw, 2rem); font-weight: 750; letter-spacing: -0.01em; }
+  .modulex-galeri-buyutec-bilgi .modulex-galeri-buyutec-kmetin { max-width: 46ch; font-size: 1rem; }
+  .modulex-galeri-buyutec-bilgi::after { content: ""; width: 56px; height: 3px; border-radius: 3px; background: --accent--; }
+  @keyframes modulex-galeri-buyutec-gel { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 1024px) { .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-sahne { grid-template-columns: minmax(0, 1fr); } }
+  @media (max-width: 768px) {
+    .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-vitrin:not(.modulex-galeri-buyutec-vitrin--tek) { grid-template-columns: minmax(0, 1fr); }
+    .modulex-galeri-buyutec--ljs .modulex-galeri-buyutec-raf { contain: none; grid-auto-flow: column; grid-auto-columns: 68px; order: 2; overflow-x: auto; overflow-y: hidden; }
+    .modulex-galeri-buyutec-sahneler { grid-template-columns: minmax(0, 1fr); }
+  }
+  .modulex-galeri-buyutec-yer { display: grid; place-items: center; width: 100%; aspect-ratio: 4 / 3; background: color-mix(in srgb, --accent-- 14%, --kartBg--); color: --accentInk--; }
+  .modulex-galeri-buyutec-yer .material-symbols-outlined { font-size: 40px; }
+  .modulex-galeri-buyutec-bag { color: inherit; text-decoration: none; }
+  .modulex-galeri-buyutec-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-galeri-buyutec-kbaslik { font-size: 1.05rem; font-weight: 700; line-height: 1.3; }
+  .modulex-galeri-buyutec-kmetin { color: --muted--; font-size: 0.95rem; line-height: 1.6; }
+  .modulex-galeri-buyutec-kat { color: --accentInk--; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-galeri-buyutec-kontrol { display: flex; gap: 10px; justify-content: flex-end; margin-block-start: 18px; }
+  .modulex-galeri-buyutec-ok { display: inline-grid; place-items: center; width: 48px; height: 48px; border: 1px solid --cizgi--; border-radius: 50%; background: --kartBg--; color: --text--; transition: background 0.25s ease, color 0.25s ease, opacity 0.25s ease; }
+  .modulex-galeri-buyutec-ok:hover:not(:disabled) { background: --accent--; color: --accentText--; }
+  .modulex-galeri-buyutec-ok:disabled { opacity: 0.4; cursor: default; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-galeri-buyutec :is(.modulex-galeri-buyutec-baslik, .modulex-galeri-buyutec-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-galeri-buyutec-baslik { line-height: 1.35; }
+  @media (max-width: 1024px) {
+    .modulex-galeri-buyutec-bas { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .modulex-galeri-buyutec { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-galeri-buyutec *, .modulex-galeri-buyutec *::before, .modulex-galeri-buyutec *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-galeri-buyutec";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const lup = (s, P) => {
+        const sahne = [...s.querySelectorAll("[data-lup]")];
+        if (!sahne.length) return;
+        s.classList.add(P + "--ljs");
+        const sinir = (v) => Math.min(100, Math.max(0, v));
+        const hover = !!(window.matchMedia && window.matchMedia("(hover: hover)").matches);
+        sahne.forEach((f) => {
+          const m = f.querySelector("button." + P + "-mercek");
+          if (!m) return;
+          let x = 50;
+          let y = 50;
+          const yaz = () => { m.style.setProperty("--x", x.toFixed(1) + "%"); m.style.setProperty("--y", y.toFixed(1) + "%"); };
+          const acik = () => m.classList.contains(P + "--yakin");
+          const ac = (v) => { m.classList.toggle(P + "--yakin", v); m.setAttribute("aria-pressed", String(v)); };
+          const konum = (e) => {
+            const r = m.getBoundingClientRect();
+            if (!r.width || !r.height) return;
+            x = sinir(((e.clientX - r.x) / r.width) * 100);
+            y = sinir(((e.clientY - r.y) / r.height) * 100);
+            yaz();
+          };
+          m.addEventListener("pointerenter", (e) => { if (e.pointerType === "mouse") { konum(e); ac(true); } });
+          m.addEventListener("pointermove", (e) => { if (e.pointerType === "mouse" || acik()) konum(e); });
+          m.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") ac(false); });
+          m.addEventListener("click", (e) => {
+            if (e.pointerType === "mouse" || (e.pointerType === undefined && e.detail > 0 && hover)) return;
+            if (e.detail > 0) konum(e);
+            ac(!acik());
+          });
+          m.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && acik()) { e.preventDefault(); ac(false); return; }
+            const a = { ArrowLeft: [-8, 0], ArrowRight: [8, 0], ArrowUp: [0, -8], ArrowDown: [0, 8] }[e.key];
+            if (!a) return;
+            e.preventDefault();
+            if (!acik()) ac(true);
+            x = sinir(x + a[0]);
+            y = sinir(y + a[1]);
+            yaz();
+          });
+          m.addEventListener("blur", () => { if (!m.matches(":hover")) ac(false); });
+          yaz();
+        });
+        const b = [...s.querySelectorAll("[data-lup-sec]")];
+        if (b.length < 2) return;
+        const sec = (n, odak) => {
+          b.forEach((x, j) => { x.setAttribute("aria-pressed", String(j === n)); x.tabIndex = j === n ? 0 : -1; });
+          sahne.forEach((f, j) => { f.hidden = j !== n; });
+          if (odak) b[n].focus();
+        };
+        b.forEach((x, i) => {
+          x.addEventListener("click", () => sec(i));
+          x.addEventListener("keydown", (e) => {
+            const rtl = getComputedStyle(s).direction === "rtl";
+            let n = -1;
+            if (e.key === "ArrowDown" || e.key === (rtl ? "ArrowLeft" : "ArrowRight")) n = (i + 1) % b.length;
+            else if (e.key === "ArrowUp" || e.key === (rtl ? "ArrowRight" : "ArrowLeft")) n = (i - 1 + b.length) % b.length;
+            else if (e.key === "Home") n = 0;
+            else if (e.key === "End") n = b.length - 1;
+            if (n > -1) { e.preventDefault(); sec(n, true); }
+          });
+        });
+        sec(0);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      lup(s, P, az);
+    });
+  })();
+</script>
