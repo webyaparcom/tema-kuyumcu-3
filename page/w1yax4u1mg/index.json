@@ -3,17 +3,23 @@
   "name": {
     "tr": "Koleksiyon",
     "en": "Collection",
-    "ar": "المجموعة"
+    "ar": "المجموعة",
+    "de": "Kollektion",
+    "ru": "Коллекция"
   },
   "description": {
     "tr": "Koleksiyon ve temsilî başlangıç fiyatları.",
     "en": "Collection and representative starting prices.",
-    "ar": "المجموعة وأسعار البداية التمثيلية."
+    "ar": "المجموعة وأسعار البداية التمثيلية.",
+    "de": "Kollektion und symbolische Einstiegspreise.",
+    "ru": "Коллекция и ориентировочные стартовые цены."
   },
   "keyword": {
     "tr": "yüzük, bilezik, kolye, küpe",
     "en": "ring, bangle, necklace, earrings",
-    "ar": "خاتم، سوار، قلادة، أقراط"
+    "ar": "خاتم، سوار، قلادة، أقراط",
+    "de": "Ring, Armband, Kette, Ohrringe",
+    "ru": "кольцо, браслет, колье, серьги"
   },
   "path": "hizmetler",
   "icon": "diamond",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Koleksiyon",
     "en": "Collection",
-    "ar": "المجموعة"
+    "ar": "المجموعة",
+    "de": "Kollektion",
+    "ru": "Коллекция"
   },
   "date": "2026-11-16T16:04:58.381Z",
   "update": "2026-11-16T16:19:50.249Z"
