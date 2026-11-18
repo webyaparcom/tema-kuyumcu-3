@@ -4,12 +4,16 @@
   "description": {
     "tr": "Lal Kuyum Atölyesi: bakırcılar çarşısında el işi altın; ölçüye yüzük, bilezik onarımı, altın ekspertizi ve bozdurma. Demo site; fiyatlar temsilîdir, içerik kurgusaldır.",
     "en": "Lal Jewellery Atelier: handmade gold in the coppersmiths' bazaar; rings to size, bangle repair, gold appraisal and buy-back. Demo site; prices are representative, content is fictional.",
-    "ar": "أتيليه لال للمجوهرات: ذهب مصنوع يدويًا في سوق النحّاسين؛ خواتم حسب المقاس وإصلاح الأساور وتقييم الذهب وشراؤه. موقع تجريبي؛ الأسعار تمثيلية والمحتوى افتراضي."
+    "ar": "أتيليه لال للمجوهرات: ذهب مصنوع يدويًا في سوق النحّاسين؛ خواتم حسب المقاس وإصلاح الأساور وتقييم الذهب وشراؤه. موقع تجريبي؛ الأسعار تمثيلية والمحتوى افتراضي.",
+    "de": "Lal Kuyum Atölyesi: handgefertigtes Gold im Kupferschmiede-Basar; Ringe nach Maß, Armbandreparatur, Goldbewertung und Ankauf. Demo-Website; die Preise sind symbolisch, der Inhalt ist fiktiv.",
+    "ru": "Lal Kuyum Atölyesi: золото ручной работы на базаре медников; кольца по меркам, ремонт браслетов, оценка и скупка золота. Демо-сайт; цены условные, содержание вымышлено."
   },
   "keyword": {
     "tr": "kuyumcu, el işi altın, ölçüye yüzük, altın ekspertizi, altın bozdurma, Gaziantep",
     "en": "jeweller, handmade gold, ring to size, gold appraisal, gold buy-back, Gaziantep",
-    "ar": "صائغ، ذهب يدوي، خاتم حسب المقاس، تقييم الذهب، بيع الذهب، غازي عنتاب"
+    "ar": "صائغ، ذهب يدوي، خاتم حسب المقاس، تقييم الذهب، بيع الذهب، غازي عنتاب",
+    "de": "Goldschmied, handgemachtes Gold, Ring nach Maß, Goldbewertung, Goldankauf, Gaziantep",
+    "ru": "Ювелир, ручная работа из золота, кольцо на заказ, оценка золота, выкуп золота, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Lal Kuyum",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

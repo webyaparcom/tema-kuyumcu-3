@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>Her parçada ayar damgası, tartım fişi ve yazılı işçilik bedeli.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>A karat hallmark, a weighing slip and a written making charge for every piece.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>دمغة العيار وإيصال الوزن وثمن المصنعية مكتوبًا لكل قطعة.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>دمغة العيار وإيصال الوزن وثمن المصنعية مكتوبًا لكل قطعة.</p>",
+    "de": "<h2>Unsere Qualitätspolitik</h2>\n<p>Bei jedem Stück: Karatstempel, Wiegeschein und schriftliche Arbeitslohnangabe.</p>",
+    "ru": "<h2>Наша политика в области качества</h2>\n<p>На каждом изделии: проба, весовой талон и письменная стоимость работы.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T16:04:58.247Z",
   "update": "2026-11-16T16:19:50.268Z",

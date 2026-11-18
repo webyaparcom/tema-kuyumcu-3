@@ -2,7 +2,9 @@
   "name": {
     "tr": "Atölye",
     "en": "Atelier",
-    "ar": "الأتيليه"
+    "ar": "الأتيليه",
+    "de": "Workshop",
+    "ru": "Воркшоп"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Ölçüden onarıma atölye felsefesi.",
     "en": "The atelier philosophy from sizing to repair.",
-    "ar": "فلسفة الأتيليه من المقاس إلى الإصلاح."
+    "ar": "فلسفة الأتيليه من المقاس إلى الإصلاح.",
+    "de": "Atelier-Philosophie von der Passform bis zur Reparatur.",
+    "ru": "Философия ателье: от подбора размера до ремонта."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Atölye",
     "en": "Atelier",
-    "ar": "الأتيليه"
+    "ar": "الأتيليه",
+    "de": "Workshop",
+    "ru": "Воркшоп"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T16:19:50.253Z",

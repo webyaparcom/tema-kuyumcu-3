@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Altını göz önünde tartmak, ayarı, gramı ve işçiliği ayrı ayrı yazmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To weigh gold in plain sight and state karat, weight and making charge separately.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>وزن الذهب أمام الزبون وكتابة العيار والوزن والمصنعية كلٌّ على حدة.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>وزن الذهب أمام الزبون وكتابة العيار والوزن والمصنعية كلٌّ على حدة.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Gold vor Ihren Augen zu wiegen und Feingehalt, Gramm und Verarbeitung getrennt auszuweisen.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Взвешивать золото на ваших глазах и указывать пробу, граммы и работу отдельно.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T16:04:58.247Z",
   "update": "2026-11-16T16:19:50.266Z",

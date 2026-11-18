@@ -3,17 +3,23 @@
   "name": {
     "tr": "Ekspertiz",
     "en": "Appraisal",
-    "ar": "التقييم"
+    "ar": "التقييم",
+    "de": "Gutachten",
+    "ru": "Экспертиза"
   },
   "description": {
     "tr": "Altın ekspertizi ve bozdurma talebi (demo).",
     "en": "Gold appraisal and buy-back request (demo).",
-    "ar": "طلب تقييم الذهب وبيعه (تجريبي)."
+    "ar": "طلب تقييم الذهب وبيعه (تجريبي).",
+    "de": "Goldschätzung und Ankaufsanfrage (Demo).",
+    "ru": "Оценка золота и запрос на выкуп (демо)."
   },
   "keyword": {
     "tr": "altın ekspertizi, bozdurma",
     "en": "gold appraisal, buy-back",
-    "ar": "تقييم الذهب، بيع الذهب"
+    "ar": "تقييم الذهب، بيع الذهب",
+    "de": "Goldgutachten, Ankauf",
+    "ru": "оценка золота, скупка"
   },
   "path": "teklif-al",
   "icon": "balance",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Ekspertiz",
     "en": "Appraisal",
-    "ar": "التقييم"
+    "ar": "التقييم",
+    "de": "Gutachten",
+    "ru": "Экспертиза"
   },
   "date": "2026-11-16T16:04:58.390Z",
   "update": "2026-11-16T16:19:50.257Z"

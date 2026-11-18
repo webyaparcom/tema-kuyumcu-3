@@ -5,12 +5,16 @@
       "name": {
         "tr": "Koleksiyon",
         "en": "Collection",
-        "ar": "المجموعة"
+        "ar": "المجموعة",
+        "de": "Kollektion",
+        "ru": "Коллекция"
       },
       "description": {
         "tr": "Koleksiyon ve temsilî başlangıç fiyatları.",
         "en": "Collection and representative starting prices.",
-        "ar": "المجموعة وأسعار البداية التمثيلية."
+        "ar": "المجموعة وأسعار البداية التمثيلية.",
+        "de": "Kollektion und symbolische Einstiegspreise.",
+        "ru": "Коллекция и ориентировочные стартовые цены."
       },
       "path": "hizmetler",
       "icon": "diamond",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Atölye",
         "en": "Atelier",
-        "ar": "الأتيليه"
+        "ar": "الأتيليه",
+        "de": "Workshop",
+        "ru": "Воркшоп"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "Ölçüden onarıma atölye felsefesi.",
         "en": "The atelier philosophy from sizing to repair.",
-        "ar": "فلسفة الأتيليه من المقاس إلى الإصلاح."
+        "ar": "فلسفة الأتيليه من المقاس إلى الإصلاح.",
+        "de": "Atelier-Philosophie von der Passform bis zur Reparatur.",
+        "ru": "Философия ателье: от подбора размера до ремонта."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Ekspertiz",
         "en": "Appraisal",
-        "ar": "التقييم"
+        "ar": "التقييم",
+        "de": "Gutachten",
+        "ru": "Экспертиза"
       },
       "description": {
         "tr": "Altın ekspertizi ve bozdurma talebi (demo).",
         "en": "Gold appraisal and buy-back request (demo).",
-        "ar": "طلب تقييم الذهب وبيعه (تجريبي)."
+        "ar": "طلب تقييم الذهب وبيعه (تجريبي).",
+        "de": "Goldschätzung und Ankaufsanfrage (Demo).",
+        "ru": "Оценка золота и запрос на выкуп (демо)."
       },
       "path": "teklif-al",
       "icon": "balance",
@@ -84,7 +96,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -105,7 +119,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],
